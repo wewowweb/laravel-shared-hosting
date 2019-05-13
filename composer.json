@@ -1,0 +1,53 @@
+{
+    "name": "wewowweb/laravel-shared-hosting",
+    "description": "Laravel package that simplifies deployment and management of Laravel application on your shared hosting server",
+    "keywords": [
+        "laravel",
+        "laravel-shared-hosting",
+        "We Wow Web"
+    ],
+    "homepage": "https://github.com/wewowweb/laravel-shared-hosting",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Gal Jakic",
+            "email": "gal@wewowweb.com",
+            "role": "Author"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "illuminate/support": "5.8.*"
+    },
+    "require-dev": {
+        "beyondcode/laravel-package-tools": "^1.0",
+        "orchestra/testbench": "^3.8",
+        "phpunit/phpunit": "^8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Wewowweb\\LaravelSharedHosting\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Wewowweb\\LaravelSharedHosting\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Wewowweb\\LaravelSharedHosting\\LaravelSharedHostingServiceProvider"
+            ]
+        }
+    }
+}
