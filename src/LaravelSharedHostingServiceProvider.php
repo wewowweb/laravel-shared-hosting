@@ -7,9 +7,8 @@ use Wewowweb\LaravelSharedHosting\Console\Commands\InstallCommand;
 
 class LaravelSharedHostingServiceProvider extends ServiceProvider
 {
-
     protected $commands = [
-        InstallCommand::class
+        InstallCommand::class,
     ];
 
     /**
@@ -19,7 +18,6 @@ class LaravelSharedHostingServiceProvider extends ServiceProvider
     {
         // Registering package commands.
         if ($this->app->runningInConsole()) {
-
             $this->commands(
                 $this->commands
             );
@@ -29,7 +27,7 @@ class LaravelSharedHostingServiceProvider extends ServiceProvider
     public function register()
     {
         $this->commands([
-            InstallCommand::class
+            InstallCommand::class,
         ]);
     }
 }
