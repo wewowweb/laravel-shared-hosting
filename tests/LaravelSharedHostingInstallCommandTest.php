@@ -9,9 +9,8 @@ use Wewowweb\LaravelSharedHosting\LaravelSharedHostingServiceProvider;
 class LaravelSharedHostingInstallCommandTest extends TestCase
 {
     /** Overrides the getPackageProviders
-     *  to load the custom package service provider
+     *  to load the custom package service provider.
      *  for Orchestra Testbench */
-    
     protected function getPackageProviders($app)
     {
         return [
