@@ -6,8 +6,12 @@ use Orchestra\Testbench\TestCase;
 use Illuminate\Support\Facades\Artisan;
 use Wewowweb\LaravelSharedHosting\LaravelSharedHostingServiceProvider;
 
-class LaravelSharedHostingTest extends TestCase
+class LaravelSharedHostingInstallCommandTest extends TestCase
 {
+    /** Overrides the getPackageProviders
+     *  to load the custom package service provider
+     *  for Orchestra Testbench */
+    
     protected function getPackageProviders($app)
     {
         return [
