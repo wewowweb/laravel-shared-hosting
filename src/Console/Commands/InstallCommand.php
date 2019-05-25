@@ -9,7 +9,7 @@ class InstallCommand extends Command
     /**
      * The name and signature of the console command.
      *
-     * @var string
+     * @var signature string
      */
     protected $signature = 'shared:install';
 
@@ -19,16 +19,6 @@ class InstallCommand extends Command
      * @var string
      */
     protected $description = 'Install Laravel Shared Hosting package';
-
-    /**
-     * Create a new command instance.
-     *
-     * @return void
-     */
-    public function __construct()
-    {
-        parent::__construct();
-    }
 
     /**
      * Execute the console command.
