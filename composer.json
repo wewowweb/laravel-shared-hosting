@@ -23,7 +23,7 @@
     "require-dev": {
         "beyondcode/laravel-package-tools": "^1.0",
         "orchestra/testbench": "^3.8",
-        "phpunit/phpunit": "^8.1"
+        "phpunit/phpunit": "^7.0"
     },
     "autoload": {
         "psr-4": {
