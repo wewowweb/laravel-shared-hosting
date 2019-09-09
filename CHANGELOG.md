@@ -4,6 +4,9 @@ All notable changes to `laravel-shared-hosting` will be documented in this file.
 
 *This package is still in active development, so you might want to [watch](https://github.com/wewowweb/laravel-shared-hosting/subscription) the repository to be notified of future changes.*
 
+## v0.1.3 - 2019-09-09
+- Add support for Laravel 6.x
+
 ## v0.1.2 - 2019-06-24
 
 -  Fix dependencies
