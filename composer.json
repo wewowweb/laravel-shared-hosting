@@ -21,7 +21,6 @@
         "illuminate/support": "^5.8|^6.0|^7.0"
     },
     "require-dev": {
-        "beyondcode/laravel-package-tools": "^1.0",
         "orchestra/testbench": "^3.8|^4.0|^5.0",
         "phpunit/phpunit": "^8.0"
     },
