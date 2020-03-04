@@ -2,8 +2,8 @@
 
 namespace Wewowweb\LaravelSharedHosting\Tests;
 
-use Orchestra\Testbench\TestCase;
 use Illuminate\Support\Facades\Artisan;
+use Orchestra\Testbench\TestCase;
 use Wewowweb\LaravelSharedHosting\LaravelSharedHostingServiceProvider;
 
 class LaravelSharedHostingInstallCommandTest extends TestCase
@@ -14,8 +14,8 @@ class LaravelSharedHostingInstallCommandTest extends TestCase
     protected function getPackageProviders($app)
     {
         return [
-             LaravelSharedHostingServiceProvider::class,
-         ];
+            LaravelSharedHostingServiceProvider::class,
+        ];
     }
 
     /** @test */
