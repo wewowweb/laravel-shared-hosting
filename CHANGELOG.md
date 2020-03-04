@@ -4,6 +4,10 @@ All notable changes to `laravel-shared-hosting` will be documented in this file.
 
 *This package is still in active development, so you might want to [watch](https://github.com/wewowweb/laravel-shared-hosting/subscription) the repository to be notified of future changes.*
 
+## v0.1.5 - 2020-03-04
+
+- Add support for Laravel 7.x
+
 ## v0.1.4 - 2019-09-09
 
 - Fix TravisCI configuration
